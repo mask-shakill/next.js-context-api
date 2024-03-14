@@ -16,3 +16,7 @@ Make sure you have Node.js and npm installed on your machine.
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 npm install
+```
+### Start the development server
+```bash
+npm run dev
