@@ -22,7 +22,7 @@ npm install
 npm run dev
 ```
 #### Create Context and provider 
-```
+```javascript
 "use client";
 
 import { createContext } from "react";
@@ -39,7 +39,7 @@ export const ContextProvider = ({ children }) => {
 };
 ```
 #### Root Layout 
-```
+```javascript
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ContextProvider } from "@/context/firstContext";
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
 }
 ````
 #### Consume Context values
-```
+```javascript
 "use client";
 import { CreateContext } from "@/context/firstContext";
 import React, { useContext } from "react";
